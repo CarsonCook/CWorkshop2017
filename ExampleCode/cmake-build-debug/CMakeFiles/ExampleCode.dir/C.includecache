@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/cookc/Desktop/Queens/DoIT/Workshops/C Workshop/ExampleCode/Examples.h
+stdio.h
+-
+malloc.h
+-
+
+C:/Users/cookc/Desktop/Queens/DoIT/Workshops/C Workshop/ExampleCode/main.c
+Examples.h
+C:/Users/cookc/Desktop/Queens/DoIT/Workshops/C Workshop/ExampleCode/Examples.h
+scopes.h
+C:/Users/cookc/Desktop/Queens/DoIT/Workshops/C Workshop/ExampleCode/scopes.h
+
+C:/Users/cookc/Desktop/Queens/DoIT/Workshops/C Workshop/ExampleCode/scopes.c
+scopes.h
+C:/Users/cookc/Desktop/Queens/DoIT/Workshops/C Workshop/ExampleCode/scopes.h
+
+C:/Users/cookc/Desktop/Queens/DoIT/Workshops/C Workshop/ExampleCode/scopes.h
+
